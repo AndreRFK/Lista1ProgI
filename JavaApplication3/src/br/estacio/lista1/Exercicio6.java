@@ -17,8 +17,9 @@ public class Exercicio6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int i = 0;
-        Scanner numeroDeEntrada = new Scanner (System.in);
+        Scanner numeroEntrada = new Scanner (System.in);
+        System.out.println("Digite um numero: "); 
+        int i = numeroEntrada.nextInt();
         if (i % 2 == 0){
         System.out.println(i + " O numero é par");
         } else{
