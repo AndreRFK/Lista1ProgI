@@ -5,6 +5,8 @@
  */
 package br.estacio.lista1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author alunoadm
@@ -15,6 +17,11 @@ public class Exercicio6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int i = 0;
+        Scanner numeroDeEntrada = new Scanner (System.in);
+        if (i % 2 == 0){
+        System.out.println(i + " O numero é par");
+        } else{
+        System.out.println(i + " O numero é impar");}
 }
 }
