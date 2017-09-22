@@ -9,7 +9,7 @@ package br.estacio.lista1;
  *
  * @author alunoadm
  */
-public class Exercico5 {
+public class Exercicio5 {
 
     /**
      * @param args the command line arguments
