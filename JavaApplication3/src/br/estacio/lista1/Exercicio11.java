@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package br.estacio.lista1;
+
 import java.util.Scanner;
 
 /**
@@ -17,7 +18,16 @@ public class Exercicio11 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+        Scanner numeroDigitado = new Scanner(System.in);
+        System.out.println("Digite um numero: ");
+        int i = numeroDigitado.nextInt();
+        if (i < 10) {
+            System.out.println("O numero digitado é menor que 10: " + i );
+        } else if (i > 10){
+            System.out.println("O numero digitado é maior que 10: " + i);
+        } else if (i == 10){
+            System.out.println("O numero digitado é igual a 10");
+        }
     }
-    
+
 }
