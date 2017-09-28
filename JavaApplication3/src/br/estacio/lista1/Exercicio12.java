@@ -24,23 +24,29 @@ public class Exercicio12 {
             Scanner s = new Scanner(System.in);
             System.out.println("Entre com o lado x:");
             ladox = s.nextInt();
-            System.out.println("------------------------------------------------");
+            System.out.println("                           ");
             System.out.println("Entre com lado y:");
             ladoy = s.nextInt();
-            System.out.println("------------------------------------------------");
+            System.out.println("                           ");
             System.out.println("Entre com lado z:");
             ladoz = s.nextInt();
-            System.out.println("------------------------------------------------");
+            System.out.println("                           ");
             if ((ladox < ladoy + ladoz) && (ladoy < ladox + ladoz) && (ladoz < ladox + ladoy)) {
                 if (ladox == ladoy && ladox == ladoz) {
                     System.out.println("Triangulo Equilatero");
                 } else if ((ladox == ladoy) || (ladox == ladoz)) {
                     System.out.println("Triangulo Isosceles");
-                } else
+                } else {
                     System.out.println("Triângulo Escaleno");
+                }
             } else {
                 System.out.println("Não é um triangulo!");
             }
+            System.out.println("                             ");
+            System.out.println("Deseja continuar? 1 = sim, 2 = não");
+            opcao = s.nextInt();
+            System.out.println("                             ");
+        }
+        System.out.println("Adeus!");
     }
-}
 }
