@@ -11,7 +11,7 @@ import java.text.DecimalFormat;
  *
  * @author alunoadm
  */
-public class Exercicio17 {
+public class Exercicio13 {
 
     /**
      * @param args the command line arguments
